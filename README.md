@@ -43,7 +43,7 @@ Target Advanced (MAE test Seq2Seq < 0,015) tercapai.
 
 ```
 .
-├── Fauzi_Submission_Akhir_DLTM.ipynb   # notebook utama (EDA, training, evaluasi)
+├── bitcoin_forecasting_lstm_seq2seq.ipynb  # notebook utama (EDA, training, evaluasi)
 ├── model_baseline_LSTM.keras           # model LSTM + CustomMHA
 ├── model_seq2seq_LSTM.keras            # model Seq2Seq akhir
 ├── best_model_seq2seq_LSTM.keras       # bobot Seq2Seq terbaik (validation)
@@ -57,7 +57,7 @@ Target Advanced (MAE test Seq2Seq < 0,015) tercapai.
    ```bash
    pip install -r requirements.txt
    ```
-2. Buka dan jalankan seluruh sel `Fauzi_Submission_Akhir_DLTM.ipynb` secara berurutan.
+2. Buka dan jalankan seluruh sel `bitcoin_forecasting_lstm_seq2seq.ipynb` secara berurutan.
 3. Jumlah epoch maksimum dapat diatur lewat variabel lingkungan `DLTM_EPOCHS` (default 30).
 
 Memuat model tersimpan: layer kustom terdaftar di notebook, jalankan sel definisi layer terlebih dahulu sebelum `keras.models.load_model(...)`.
