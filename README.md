@@ -1,7 +1,5 @@
 # Multivariate Multi-Horizon Time Series Forecasting Harga Bitcoin
 
-Submission Akhir **Membangun Proyek Deep Learning Tingkat Mahir** (Dicoding).
-
 Proyek ini memprediksi harga penutupan (`Close`) Bitcoin **24 jam ke depan sekaligus** (multi-step) dari beberapa fitur sekaligus (multivariate). Model dilatih dengan *custom training loop* (`tf.GradientTape`).
 
 ## Dataset
